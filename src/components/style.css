@@ -21,14 +21,14 @@ body{
     height: 16rem;
 }
 
-.upper_data h4{
+.upper h4{
     font-size: 18px;
     color: rgba(17,17,17,0.849);
     letter-spacing: .5px;
     font-weight: 500;
 }
 
-.upper_data span{
+.upper span{
     background-color: rgb(36,150,63);
     border-radius: 6px;
     color: #fff;
@@ -39,14 +39,14 @@ body{
     width: 45px;
 }
 
-.lower_data h5{
+.lower h5{
     font-size: 15px;
 letter-spacing: .4px;
 font-weight: 400;
 color:rgba(17,17,17,0.849) ;
 }
 
-.lower_data span{
+.lower span{
     font-size: 15px;
     letter-spacing: .4px;
     color:rgba(17,17,17,0.849) ;
@@ -56,18 +56,18 @@ color:rgba(17,17,17,0.849) ;
     border-bottom: 1px solid rgba(17,17,17,0.449);
 }
 
-.last_data .limg{
+.last .limg{
     width: 18px;
 }
 
-.last_data p{
+.last p{
     font-size: 14px;
     margin-top: 18px;
     letter-spacing: .2px;
     color: rgba(17,17,17,0.849);
 }
 
-.last_data .laimg{
+.last .laimg{
     width: 45px;
 }
 

@@ -12,12 +12,12 @@ const Cards = ({ data }) => {
                                 <Card.Img variant="top" className='cd' src={element.imgdata} />
 
                                 <div className="card_body">
-                                    <div className="upper_data d-flex justify-content-between align-items-center">
+                                    <div className="upper d-flex justify-content-between align-items-center">
                                         <h4 className='mt-2'>{element.rname}</h4>
                                         <span>{element.rating}&nbsp;★</span>
                                     </div>
 
-                                    <div className="lower_data d-flex  justify-content-between">
+                                    <div className="lower d-flex  justify-content-between">
                                         <h5>{element.address}</h5>
                                         <span>{element.price}</span>
                                     </div>
@@ -25,7 +25,7 @@ const Cards = ({ data }) => {
 
                                     <div className="extra"></div>
 
-                                    <div className="last_data d-flex justify-content-between align-items-center">
+                                    <div className="last d-flex justify-content-between align-items-center">
                                         <img src={element.arrimg} className="limg" alt="" />
                                         <p>{element.somedata}</p>
                                         <img src={element.delimg} className="laimg" alt="" />
